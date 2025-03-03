@@ -19,7 +19,11 @@ async function schedulePushNotification() {
     content: {
       title: "uday us herel! 📬",
       body: "Here is the notification body",
-      data: { data: "goes here", test: { test1: "more data" } },
+      data: {
+        data: "goes here",
+        test: { test1: "more data" },
+        url: "https://expo.dev",
+      },
     },
     trigger: null,
   });
